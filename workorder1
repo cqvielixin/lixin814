@@ -1,0 +1,24 @@
+#include <ZumoMotors.h>
+ZumoMotors motors;
+void getup(){
+  delay(1000);
+  go();
+  delay(2000);
+  stop();
+  delay(1000);
+  turnLeft();
+  delay(1500);
+  stop();
+  delay(500);
+  go();
+  delay(5333);
+  stop();
+  delay(500);
+  turnRight();
+  delay(1500);
+  stop();
+  delay(500);
+  go();
+  delay(2000);
+  stop();
+}
