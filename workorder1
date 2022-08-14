@@ -22,3 +22,20 @@ void getup(){
   delay(2000);
   stop();
 }
+void loop(){  }
+void go(){
+  motor.setLeftSpeed(100);
+  motor.setRightSpeed(100);
+}
+void stop(){
+  motor.setLeftSpeed(0);
+  motor.setRightSpeed(0);
+}
+void turnRight(){
+  motor.setLeftSpeed(100);
+  motor.setRightSpeed(0);
+}
+void turnLeft(){
+  motor.setLeftSpeed(0);
+  motor.setRightSpeed(100);
+}
